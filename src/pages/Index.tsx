@@ -7,22 +7,24 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col items-center justify-center space-y-12">
-          <div className="flex flex-col items-center space-y-6 text-center animate-fade-in">
-            <div className="relative w-96 h-96 flex items-center justify-center">
+          <div className="flex flex-col items-center space-y-8 text-center animate-fade-in">
+            <div className="relative w-96 h-96 flex items-center justify-center bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-3xl p-8">
               <img 
                 src="https://cdn.poehali.dev/projects/ad61bf79-d392-4314-b5ad-1ab9cf2e41de/files/1920d892-6e5f-498b-a084-104de7e23fb4.jpg"
-                alt="SafeCore Logo"
-                className="w-full h-full object-contain hover-scale"
+                alt="Safe of Immortality Logo"
+                className="w-full h-full object-contain hover-scale drop-shadow-2xl"
               />
             </div>
             
-            <h1 className="text-6xl font-bold text-primary tracking-tight">
-              SafeCore
-            </h1>
-            
-            <p className="text-xl text-muted-foreground max-w-2xl">
-              Киберспортивная команда банковской безопасности
-            </p>
+            <div className="space-y-3">
+              <h1 className="text-6xl font-bold text-primary tracking-tight">
+                Safe of Immortality
+              </h1>
+              
+              <p className="text-xl text-muted-foreground max-w-2xl">
+                Киберспортивная команда банковской безопасности
+              </p>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 w-full max-w-5xl">
@@ -76,7 +78,7 @@ const Index = () => {
 
           <div className="mt-16 w-full max-w-5xl">
             <Card className="p-8 bg-card border-primary/20">
-              <h2 className="text-3xl font-bold text-center text-primary mb-8">Варианты названия команды</h2>
+              <h2 className="text-3xl font-bold text-center text-primary mb-8">Другие варианты названия</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="p-6 bg-background rounded-lg border border-primary/30 hover:border-primary transition-all cursor-pointer">
                   <h3 className="text-2xl font-bold text-primary mb-2">SafeCore</h3>
