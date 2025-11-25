@@ -74,11 +74,36 @@ const Index = () => {
             </Button>
           </div>
 
-          <div className="mt-16 text-center space-y-4">
-            <div className="flex items-center justify-center gap-2 text-muted-foreground">
-              <Icon name="Zap" size={20} className="text-primary" />
-              <span className="text-sm">Powered by banking security expertise</span>
-            </div>
+          <div className="mt-16 w-full max-w-5xl">
+            <Card className="p-8 bg-card border-primary/20">
+              <h2 className="text-3xl font-bold text-center text-primary mb-8">Варианты названия команды</h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="p-6 bg-background rounded-lg border border-primary/30 hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-primary mb-2">SafeCore</h3>
+                  <p className="text-muted-foreground text-sm">Ядро безопасности — текущий вариант</p>
+                </div>
+                <div className="p-6 bg-background rounded-lg border border-muted hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">CryptoGuard</h3>
+                  <p className="text-muted-foreground text-sm">Защитники шифрования и Ancient</p>
+                </div>
+                <div className="p-6 bg-background rounded-lg border border-muted hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">VaultKeepers</h3>
+                  <p className="text-muted-foreground text-sm">Хранители сейфов и трона</p>
+                </div>
+                <div className="p-6 bg-background rounded-lg border border-muted hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">SecureStack</h3>
+                  <p className="text-muted-foreground text-sm">Безопасный стек технологий и скиллов</p>
+                </div>
+                <div className="p-6 bg-background rounded-lg border border-muted hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">AegisDefenders</h3>
+                  <p className="text-muted-foreground text-sm">Защитники Эгиды — прямая отсылка к Dota</p>
+                </div>
+                <div className="p-6 bg-background rounded-lg border border-muted hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">FortressGG</h3>
+                  <p className="text-muted-foreground text-sm">Неприступная крепость финтеха и киберспорта</p>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </div>
