@@ -10,7 +10,7 @@ const Index = () => {
           <div className="flex flex-col items-center space-y-8 text-center animate-fade-in">
             <div className="relative w-96 h-96 flex items-center justify-center bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-3xl p-8">
               <img 
-                src="https://cdn.poehali.dev/projects/ad61bf79-d392-4314-b5ad-1ab9cf2e41de/files/a15ea216-f3cb-4cf2-b7f8-847c006dca0d.jpg"
+                src="https://cdn.poehali.dev/projects/ad61bf79-d392-4314-b5ad-1ab9cf2e41de/files/ec115007-c5b4-4855-938f-2717b60a5702.jpg"
                 alt="Safe of Immortality Logo"
                 className="w-full h-full object-contain hover-scale drop-shadow-2xl"
               />
