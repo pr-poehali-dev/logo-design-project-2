@@ -102,6 +102,30 @@ const Index = () => {
                   <h3 className="text-2xl font-bold text-foreground mb-2">FortressGG</h3>
                   <p className="text-muted-foreground text-sm">Неприступная крепость финтеха и киберспорта</p>
                 </div>
+                <div className="p-6 bg-background rounded-lg border border-muted hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">GoldShield</h3>
+                  <p className="text-muted-foreground text-sm">Золотой щит — защита банка и команды</p>
+                </div>
+                <div className="p-6 bg-background rounded-lg border border-muted hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">ImmortalSec</h3>
+                  <p className="text-muted-foreground text-sm">Бессмертная безопасность — отсылка к Immortal рангу</p>
+                </div>
+                <div className="p-6 bg-background rounded-lg border border-muted hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">RadiantGuard</h3>
+                  <p className="text-muted-foreground text-sm">Стража света — защитники добра в Dota</p>
+                </div>
+                <div className="p-6 bg-background rounded-lg border border-muted hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">DivineLock</h3>
+                  <p className="text-muted-foreground text-sm">Божественный замок — высший ранг и защита</p>
+                </div>
+                <div className="p-6 bg-background rounded-lg border border-muted hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">TreasureWatch</h3>
+                  <p className="text-muted-foreground text-sm">Хранители сокровищ — банк и игровые трофеи</p>
+                </div>
+                <div className="p-6 bg-background rounded-lg border border-muted hover:border-primary transition-all cursor-pointer">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">ChampionShield</h3>
+                  <p className="text-muted-foreground text-sm">Щит чемпионов — Aegis и защита данных</p>
+                </div>
               </div>
             </Card>
           </div>
